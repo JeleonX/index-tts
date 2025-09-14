@@ -134,6 +134,11 @@ Install [PyTorch](https://pytorch.org/get-started/locally/), e.g.:
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
+CPU version:
+```bash
+pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+
 > [!NOTE]
 > If you are using Windows you may encounter [an error](https://github.com/index-tts/index-tts/issues/61) when installing `pynini`:
 `ERROR: Failed building wheel for pynini`
